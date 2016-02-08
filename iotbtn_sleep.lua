@@ -12,7 +12,8 @@
 LED = 0
 IN  = 4
 
-voltage = 3.3*adc.read(0)/1024
+voltage = 4.82*adc.read(0)/1024
+
 
 -- set D4 as trigger input w/ pullup
 gpio.mode(IN, gpio.INT, gpio.PULLUP)
