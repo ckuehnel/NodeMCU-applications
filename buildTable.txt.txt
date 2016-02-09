@@ -1,0 +1,13 @@
+The file buildTable.lua is not built to run on NodeMCU.
+-----------------------------------------------------------------------------------------------------
+It was built w/ Lua for Windows V5.1 and should work with other Windows/Linux based Lua Versions too.
+
+Running buildTable.lua generates the data file rainbow.dat which contains the data point for rainbow
+colors mode visible by WS2812 RGB LEDs driven by a NodeMCU device. You can define the number of colors
+by the constant POINTS.
+
+Generate the file rainbow.dat on your host system and save rainbow.dat and rainbow1.lua to control
+WS2812 LED on your NodeMCU device.
+-----------------------------------------------------------------------------------------------------
+2016-02-09/Claus Kuehnel
+
